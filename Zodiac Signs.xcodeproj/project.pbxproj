@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10C5C141A419D6100291A0C /* ZSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C5C131A419D6100291A0C /* ZSNavigationController.swift */; };
+		F1106C621B5ABF2E00A51F65 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106C5F1B5ABF2E00A51F65 /* MessageViewController.swift */; };
+		F1106C631B5ABF2E00A51F65 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106C601B5ABF2E00A51F65 /* CustomPresentationController.swift */; };
+		F1106C641B5ABF2E00A51F65 /* CustomPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106C611B5ABF2E00A51F65 /* CustomPresentationAnimationController.swift */; };
+		F1357CB11A3E5A7300D74A83 /* ZSDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1357CB01A3E5A7300D74A83 /* ZSDateHelper.swift */; };
+		F1357CB31A3F7ABA00D74A83 /* ZSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1357CB21A3F7ABA00D74A83 /* ZSCollectionViewCell.swift */; };
+		F1357CB51A3F863F00D74A83 /* ZSCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1357CB41A3F863F00D74A83 /* ZSCollectionViewController.swift */; };
+		F1357CB71A3F960600D74A83 /* ZSCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1357CB61A3F960600D74A83 /* ZSCollectionViewLayout.swift */; };
+		F161F7881A2E8050009F2D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F161F7871A2E8050009F2D16 /* AppDelegate.swift */; };
+		F161F78A1A2E8050009F2D16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F161F7891A2E8050009F2D16 /* FirstViewController.swift */; };
+		F161F78C1A2E8050009F2D16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F161F78B1A2E8050009F2D16 /* SecondViewController.swift */; };
+		F161F78F1A2E8051009F2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F161F78D1A2E8051009F2D16 /* Main.storyboard */; };
+		F161F7911A2E8051009F2D16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F161F7901A2E8051009F2D16 /* Images.xcassets */; };
+		F161F7941A2E8051009F2D16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F161F7921A2E8051009F2D16 /* LaunchScreen.xib */; };
+		F161F7A01A2E8051009F2D16 /* Zodiac_SignsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F161F79F1A2E8051009F2D16 /* Zodiac_SignsTests.swift */; };
+		F167DC7E1B506E6B00B41E51 /* ZSDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167DC7D1B506E6B00B41E51 /* ZSDetailTableViewController.swift */; };
+		F167DC801B51AB2E00B41E51 /* SunSignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167DC7F1B51AB2E00B41E51 /* SunSignTableViewCell.swift */; };
+		F16EDD2A1B5B8BF800A16DBC /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16EDD291B5B8BF800A16DBC /* CoolView.swift */; };
+		F1872DDC1A401D82006915AC /* ZSDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1872DDB1A401D82006915AC /* ZSDetailViewController.swift */; };
+		F1872DDE1A40239E006915AC /* ZodiacSigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1872DDD1A40239E006915AC /* ZodiacSigns.swift */; };
+		F19B70361B54FA0F0016B169 /* PropertiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B70351B54FA0F0016B169 /* PropertiesTableViewCell.swift */; };
+		F19B70381B54FEEF0016B169 /* TopAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B70371B54FEEF0016B169 /* TopAlignedLabel.swift */; };
+		F19B703A1B55071A0016B169 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B70391B55071A0016B169 /* PublicVariables.swift */; };
+		F1BC17251B563E3500667BA5 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC17241B563E3500667BA5 /* SettingsTableViewController.swift */; };
+		F1E859C91B4E49010009B320 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E859C81B4E49010009B320 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F161F79A1A2E8051009F2D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F161F77A1A2E8050009F2D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F161F7811A2E8050009F2D16;
+			remoteInfo = "Zodiac Signs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10C5C131A419D6100291A0C /* ZSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSNavigationController.swift; sourceTree = "<group>"; };
+		F1106C5F1B5ABF2E00A51F65 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		F1106C601B5ABF2E00A51F65 /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		F1106C611B5ABF2E00A51F65 /* CustomPresentationAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationAnimationController.swift; sourceTree = "<group>"; };
+		F1357CB01A3E5A7300D74A83 /* ZSDateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSDateHelper.swift; sourceTree = "<group>"; };
+		F1357CB21A3F7ABA00D74A83 /* ZSCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1357CB41A3F863F00D74A83 /* ZSCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSCollectionViewController.swift; sourceTree = "<group>"; };
+		F1357CB61A3F960600D74A83 /* ZSCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSCollectionViewLayout.swift; sourceTree = "<group>"; };
+		F161F7821A2E8050009F2D16 /* Zodiac Signs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zodiac Signs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F161F7861A2E8050009F2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F161F7871A2E8050009F2D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F161F7891A2E8050009F2D16 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F161F78B1A2E8050009F2D16 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F161F78E1A2E8051009F2D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F161F7901A2E8051009F2D16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F161F7931A2E8051009F2D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F161F7991A2E8051009F2D16 /* Zodiac SignsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zodiac SignsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F161F79E1A2E8051009F2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F161F79F1A2E8051009F2D16 /* Zodiac_SignsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac_SignsTests.swift; sourceTree = "<group>"; };
+		F167DC7C1B4FB82000B41E51 /* ZodiacSigns-backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZodiacSigns-backup.swift"; sourceTree = "<group>"; };
+		F167DC7D1B506E6B00B41E51 /* ZSDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSDetailTableViewController.swift; sourceTree = "<group>"; };
+		F167DC7F1B51AB2E00B41E51 /* SunSignTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunSignTableViewCell.swift; sourceTree = "<group>"; };
+		F167DCF91B5393D600B41E51 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F16EDD291B5B8BF800A16DBC /* CoolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolView.swift; sourceTree = "<group>"; };
+		F1872DDB1A401D82006915AC /* ZSDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZSDetailViewController.swift; path = ../ZSDetailViewController.swift; sourceTree = "<group>"; };
+		F1872DDD1A40239E006915AC /* ZodiacSigns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacSigns.swift; sourceTree = "<group>"; };
+		F19B70351B54FA0F0016B169 /* PropertiesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesTableViewCell.swift; sourceTree = "<group>"; };
+		F19B70371B54FEEF0016B169 /* TopAlignedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAlignedLabel.swift; sourceTree = "<group>"; };
+		F19B70391B55071A0016B169 /* PublicVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicVariables.swift; sourceTree = "<group>"; };
+		F1BC17241B563E3500667BA5 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		F1E859C81B4E49010009B320 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F161F77F1A2E8050009F2D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F161F7961A2E8051009F2D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F161F7791A2E8050009F2D16 = {
+			isa = PBXGroup;
+			children = (
+				F161F7841A2E8050009F2D16 /* Zodiac Signs */,
+				F161F79C1A2E8051009F2D16 /* Zodiac SignsTests */,
+				F161F7831A2E8050009F2D16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F161F7831A2E8050009F2D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F161F7821A2E8050009F2D16 /* Zodiac Signs.app */,
+				F161F7991A2E8051009F2D16 /* Zodiac SignsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F161F7841A2E8050009F2D16 /* Zodiac Signs */ = {
+			isa = PBXGroup;
+			children = (
+				F161F78D1A2E8051009F2D16 /* Main.storyboard */,
+				F19B70391B55071A0016B169 /* PublicVariables.swift */,
+				F1357CB01A3E5A7300D74A83 /* ZSDateHelper.swift */,
+				F161F7891A2E8050009F2D16 /* FirstViewController.swift */,
+				F161F78B1A2E8050009F2D16 /* SecondViewController.swift */,
+				F1872DDD1A40239E006915AC /* ZodiacSigns.swift */,
+				F167DC7C1B4FB82000B41E51 /* ZodiacSigns-backup.swift */,
+				F10C5C131A419D6100291A0C /* ZSNavigationController.swift */,
+				F167DC7D1B506E6B00B41E51 /* ZSDetailTableViewController.swift */,
+				F167DC7F1B51AB2E00B41E51 /* SunSignTableViewCell.swift */,
+				F19B70351B54FA0F0016B169 /* PropertiesTableViewCell.swift */,
+				F19B70371B54FEEF0016B169 /* TopAlignedLabel.swift */,
+				F1BC17241B563E3500667BA5 /* SettingsTableViewController.swift */,
+				F16EDD291B5B8BF800A16DBC /* CoolView.swift */,
+				F1106C5F1B5ABF2E00A51F65 /* MessageViewController.swift */,
+				F1106C601B5ABF2E00A51F65 /* CustomPresentationController.swift */,
+				F1106C611B5ABF2E00A51F65 /* CustomPresentationAnimationController.swift */,
+				F161F7901A2E8051009F2D16 /* Images.xcassets */,
+				F161F7851A2E8050009F2D16 /* Supporting Files */,
+			);
+			path = "Zodiac Signs";
+			sourceTree = "<group>";
+		};
+		F161F7851A2E8050009F2D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F167DCF91B5393D600B41E51 /* Bridging-Header.h */,
+				F1872DDB1A401D82006915AC /* ZSDetailViewController.swift */,
+				F1E859C81B4E49010009B320 /* Extensions.swift */,
+				F1357CB41A3F863F00D74A83 /* ZSCollectionViewController.swift */,
+				F1357CB21A3F7ABA00D74A83 /* ZSCollectionViewCell.swift */,
+				F1357CB61A3F960600D74A83 /* ZSCollectionViewLayout.swift */,
+				F161F7871A2E8050009F2D16 /* AppDelegate.swift */,
+				F161F7921A2E8051009F2D16 /* LaunchScreen.xib */,
+				F161F7861A2E8050009F2D16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F161F79C1A2E8051009F2D16 /* Zodiac SignsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F161F79F1A2E8051009F2D16 /* Zodiac_SignsTests.swift */,
+				F161F79D1A2E8051009F2D16 /* Supporting Files */,
+			);
+			path = "Zodiac SignsTests";
+			sourceTree = "<group>";
+		};
+		F161F79D1A2E8051009F2D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F161F79E1A2E8051009F2D16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F161F7811A2E8050009F2D16 /* Zodiac Signs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F161F7A31A2E8051009F2D16 /* Build configuration list for PBXNativeTarget "Zodiac Signs" */;
+			buildPhases = (
+				F161F77E1A2E8050009F2D16 /* Sources */,
+				F161F77F1A2E8050009F2D16 /* Frameworks */,
+				F161F7801A2E8050009F2D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zodiac Signs";
+			productName = "Zodiac Signs";
+			productReference = F161F7821A2E8050009F2D16 /* Zodiac Signs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F161F7981A2E8051009F2D16 /* Zodiac SignsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F161F7A61A2E8051009F2D16 /* Build configuration list for PBXNativeTarget "Zodiac SignsTests" */;
+			buildPhases = (
+				F161F7951A2E8051009F2D16 /* Sources */,
+				F161F7961A2E8051009F2D16 /* Frameworks */,
+				F161F7971A2E8051009F2D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F161F79B1A2E8051009F2D16 /* PBXTargetDependency */,
+			);
+			name = "Zodiac SignsTests";
+			productName = "Zodiac SignsTests";
+			productReference = F161F7991A2E8051009F2D16 /* Zodiac SignsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F161F77A1A2E8050009F2D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Haluk Isik";
+				TargetAttributes = {
+					F161F7811A2E8050009F2D16 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FESAZ792S8;
+					};
+					F161F7981A2E8051009F2D16 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F161F7811A2E8050009F2D16;
+					};
+				};
+			};
+			buildConfigurationList = F161F77D1A2E8050009F2D16 /* Build configuration list for PBXProject "Zodiac Signs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F161F7791A2E8050009F2D16;
+			productRefGroup = F161F7831A2E8050009F2D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F161F7811A2E8050009F2D16 /* Zodiac Signs */,
+				F161F7981A2E8051009F2D16 /* Zodiac SignsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F161F7801A2E8050009F2D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F161F78F1A2E8051009F2D16 /* Main.storyboard in Resources */,
+				F161F7941A2E8051009F2D16 /* LaunchScreen.xib in Resources */,
+				F161F7911A2E8051009F2D16 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F161F7971A2E8051009F2D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F161F77E1A2E8050009F2D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1357CB11A3E5A7300D74A83 /* ZSDateHelper.swift in Sources */,
+				F167DC801B51AB2E00B41E51 /* SunSignTableViewCell.swift in Sources */,
+				F1106C641B5ABF2E00A51F65 /* CustomPresentationAnimationController.swift in Sources */,
+				F1872DDE1A40239E006915AC /* ZodiacSigns.swift in Sources */,
+				F161F78C1A2E8050009F2D16 /* SecondViewController.swift in Sources */,
+				F161F7881A2E8050009F2D16 /* AppDelegate.swift in Sources */,
+				F10C5C141A419D6100291A0C /* ZSNavigationController.swift in Sources */,
+				F167DC7E1B506E6B00B41E51 /* ZSDetailTableViewController.swift in Sources */,
+				F1106C631B5ABF2E00A51F65 /* CustomPresentationController.swift in Sources */,
+				F19B70361B54FA0F0016B169 /* PropertiesTableViewCell.swift in Sources */,
+				F19B703A1B55071A0016B169 /* PublicVariables.swift in Sources */,
+				F1357CB31A3F7ABA00D74A83 /* ZSCollectionViewCell.swift in Sources */,
+				F1357CB51A3F863F00D74A83 /* ZSCollectionViewController.swift in Sources */,
+				F19B70381B54FEEF0016B169 /* TopAlignedLabel.swift in Sources */,
+				F1BC17251B563E3500667BA5 /* SettingsTableViewController.swift in Sources */,
+				F1357CB71A3F960600D74A83 /* ZSCollectionViewLayout.swift in Sources */,
+				F1106C621B5ABF2E00A51F65 /* MessageViewController.swift in Sources */,
+				F16EDD2A1B5B8BF800A16DBC /* CoolView.swift in Sources */,
+				F1872DDC1A401D82006915AC /* ZSDetailViewController.swift in Sources */,
+				F1E859C91B4E49010009B320 /* Extensions.swift in Sources */,
+				F161F78A1A2E8050009F2D16 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F161F7951A2E8051009F2D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F161F7A01A2E8051009F2D16 /* Zodiac_SignsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F161F79B1A2E8051009F2D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F161F7811A2E8050009F2D16 /* Zodiac Signs */;
+			targetProxy = F161F79A1A2E8051009F2D16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F161F78D1A2E8051009F2D16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F161F78E1A2E8051009F2D16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F161F7921A2E8051009F2D16 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F161F7931A2E8051009F2D16 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F161F7A11A2E8051009F2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F161F7A21A2E8051009F2D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F161F7A41A2E8051009F2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/aurelius/Documents/Developer/FacebookSDK,
+				);
+				INFOPLIST_FILE = "Zodiac Signs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f46999bd-a7ba-4f95-a290-dd1a749523b3";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F161F7A51A2E8051009F2D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Haluk Isik (FESAZ792S8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Haluk Isik (FESAZ792S8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/aurelius/Documents/Developer/FacebookSDK,
+				);
+				INFOPLIST_FILE = "Zodiac Signs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f46999bd-a7ba-4f95-a290-dd1a749523b3";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F161F7A71A2E8051009F2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zodiac SignsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zodiac Signs.app/Zodiac Signs";
+			};
+			name = Debug;
+		};
+		F161F7A81A2E8051009F2D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zodiac SignsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zodiac Signs.app/Zodiac Signs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F161F77D1A2E8050009F2D16 /* Build configuration list for PBXProject "Zodiac Signs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F161F7A11A2E8051009F2D16 /* Debug */,
+				F161F7A21A2E8051009F2D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F161F7A31A2E8051009F2D16 /* Build configuration list for PBXNativeTarget "Zodiac Signs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F161F7A41A2E8051009F2D16 /* Debug */,
+				F161F7A51A2E8051009F2D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F161F7A61A2E8051009F2D16 /* Build configuration list for PBXNativeTarget "Zodiac SignsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F161F7A71A2E8051009F2D16 /* Debug */,
+				F161F7A81A2E8051009F2D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F161F77A1A2E8050009F2D16 /* Project object */;
+}
